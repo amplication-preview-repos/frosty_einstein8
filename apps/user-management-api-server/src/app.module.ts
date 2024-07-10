@@ -6,7 +6,11 @@ import { ReportModule } from "./report/report.module";
 import { DistributorManagementModule } from "./distributorManagement/distributorManagement.module";
 import { RetailerManagementModule } from "./retailerManagement/retailerManagement.module";
 import { UserModule } from "./user/user.module";
+import { AdminFunctionsModule } from "./AdminFunctions/adminfunctions.module";
 import { AuthenticationModule } from "./Authentication/authentication.module";
+import { DistributorFunctionsModule } from "./DistributorFunctions/distributorfunctions.module";
+import { RetailerServicesModule } from "./RetailerServices/retailerservices.module";
+import { UserManagementModule } from "./UserManagement/usermanagement.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,7 +30,11 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     DistributorManagementModule,
     RetailerManagementModule,
     UserModule,
+    AdminFunctionsModule,
     AuthenticationModule,
+    DistributorFunctionsModule,
+    RetailerServicesModule,
+    UserManagementModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
